@@ -11,13 +11,12 @@ def start():
     dms = list()
     while True:
         if len(dms) is not 0:
-            for i in range(len(dms)):
                 message = dms[i]['message']
                 sender_id = dms[i]['sender_id']
                 id = dms[i]['id']
 
                 if len(message) is not 0 and len(message) < 280:
-                    if "prikitiw" in message:
+                    if "cips" in message:
                         message = message.replace("cips", "")
                         if len(message) is not 0:
                             if dms[i]['media'] is None:
