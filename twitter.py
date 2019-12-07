@@ -6,7 +6,6 @@ from requests_oauthlib import OAuth1
 import requests
 import os
 
-#test
 
 class Twitter:
     def __init__(self):
